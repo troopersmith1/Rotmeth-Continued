@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <RecipeDef>
+    <defName>Make_Rotmeth</defName>
+    <label>make rotmeth</label>
+    <description>Make rotmeth by fermenting meat.</description>
+    <jobString>Making rotmeth.</jobString>
+    <workAmount>2000</workAmount>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>0.75</count>
+      </li>
+    </ingredients>
+    <products>
+      <Rotmeth>3</Rotmeth>
+    </products>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <defaultIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </defaultIngredientFilter>
+    <workSkill>Cooking</workSkill>
+	<skillRequirements>
+			<Cooking>8</Cooking>
+	</skillRequirements>
+	<researchPrerequisite>Rotmeth</researchPrerequisite>
+  </RecipeDef>
+  
+  <RecipeDef>
+    <defName>Make_Rotwort</defName>
+    <label>make rotwort</label>
+    <description>Make Rotwort from meat.</description>
+    <jobString>Making Rotwort.</jobString>
+    <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+	<skillRequirements>
+			<Cooking>8</Cooking>
+	</skillRequirements>
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_Brewing</soundWorking>
+    <allowMixingIngredients>true</allowMixingIngredients>
+    <workAmount>1000</workAmount>
+    <targetCountAdjustment>1</targetCountAdjustment>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>MeatRaw</li>
+          </categories>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>MeatRaw</li>
+      </categories>
+    </fixedIngredientFilter>
+    <products>
+      <Rotwort>5</Rotwort>
+    </products>
+  </RecipeDef>
+
+</Defs>

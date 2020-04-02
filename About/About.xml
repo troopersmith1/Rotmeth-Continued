@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Rotmeth 1.1</name>
+	<author>troopersmith1 - winggar</author>
+	<supportedVersions>
+	<li>1.0</li>
+	<li>1.1</li>
+	</supportedVersions>
+	<modDependencies>
+    <li>
+      <packageId>Mantrasong.Processors</packageId>
+      <displayName>Universal Fermenter</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2015487929</steamWorkshopUrl>
+    </li>
+	</modDependencies>
+	<packageId>troopersmith1.Rotmeth</packageId>
+	<description>The Rotmeth mod adds in the drink "Rotmeth" from the Elder Scrolls series. Rotmeth is made from fermented meat, and was a ritual drink made by the Bosmer of Valenwood after the creation of the Green Pact. The Bosmer had vowed to never eat anything plant-based, and to make sure they use all the meat of their enemies' bodies after defeating them. Rotmeth was their solution for an alcoholic drink that didn't use plant-based materials. Rotmeth also finds its use on the Rim, as the fermenting process involved in making it disguises the origins of the meat used. This allows unscrupulous leaders to make use of human and insect meat without their colonists ever finding out.
+
+This was a request from daemonfool on Ludeon Forums.
+	
+Rotmeth is an XML mod, so it should be compatible with everything, including multiplayer.
+		</description>
+</ModMetaData>
