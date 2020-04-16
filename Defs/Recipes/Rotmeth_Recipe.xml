@@ -74,6 +74,7 @@
     <products>
       <Rotwort>5</Rotwort>
     </products>
+	<researchPrerequisite>Rotmeth</researchPrerequisite>
   </RecipeDef>
 
 </Defs>
