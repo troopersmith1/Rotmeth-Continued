@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rotmeth 1.1</name>
+	<name>Rotmeth Continued [1.1][1.2]</name>
 	<author>troopersmith1 - winggar</author>
 	<supportedVersions>
-	<li>1.0</li>
-	<li>1.1</li>
+		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
 	<modDependencies>
     <li>
-      <packageId>Mantrasong.Processors</packageId>
-      <displayName>Universal Fermenter</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2015487929</steamWorkshopUrl>
+      <packageId>syrchalis.universalfermenter</packageId>
+      <displayName>[SYR] Universal Fermenter</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2073225100</steamWorkshopUrl>
     </li>
 	</modDependencies>
 	<packageId>troopersmith1.Rotmeth</packageId>
@@ -19,5 +19,7 @@
 This was a request from daemonfool on Ludeon Forums.
 	
 Rotmeth is an XML mod, so it should be compatible with everything, including multiplayer.
+
+Support for 1.0 has been discontinued due to the removal of the 1.0 version of Universal Fermenter by the mod author. Now requires Syrchalis' version for 1.1 and 1.2
 		</description>
 </ModMetaData>
