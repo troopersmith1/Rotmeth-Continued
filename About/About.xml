@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Rotmeth Continued [1.1][1.2]</name>
+	<name>Rotmeth [Universal Fermenter] [1.1+]</name>
 	<author>troopersmith1 - winggar</author>
 	<supportedVersions>
 		<li>1.1</li>
 		<li>1.2</li>
+		<li>1.3</li>
 	</supportedVersions>
 	<modDependencies>
     <li>
       <packageId>syrchalis.universalfermenter</packageId>
       <displayName>[SYR] Universal Fermenter</displayName>
-      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2073225100</steamWorkshopUrl>
+      <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2558008936</steamWorkshopUrl>
     </li>
 	</modDependencies>
 	<packageId>troopersmith1.Rotmeth</packageId>
